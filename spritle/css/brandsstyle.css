@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.total-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*--------header--------------*/
+.header-container {
+    width: 100%;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.header-parent {
+    display: flex;
+}
+
+.header-logo {
+    width: 20%;
+    float: left;
+}
+
+.header-logo-parent {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.header-nav-parent {
+    width: 70%;
+    margin: 10px auto;
+
+
+}
+
+.header-nav-list {
+    width: 81%;
+    margin: 15px auto;
+
+
+}
+
+.header-nav-list ul li {
+    display: inline-block;
+    margin: 0 7px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.header-brands {
+    color: #facf63;
+    background-color: #FFF6E0;
+}
+
+.head-nav:hover {
+    color: #facf63;
+    background-color: #FFF6E0;
+}
+
+.header-login-btn {
+    width: 15%;
+    float: right;
+}
+
+.header-login-button {
+    margin-top: 15px;
+    padding: 15px 0 16px 0;
+    background-color: #fccf64;
+    width: 70%;
+    float: right;
+    text-align: center;
+}
+
+.header-login-button:hover {
+    background: #c49a6c;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    color: black !important;
+}
+
+.login-btn {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: #2E5856;
+}
+
+.header-line {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+/*--------container-one---- fresh obessions--------*/
+
+.container-one {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.container-one-parent {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-one-child-one {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.container-one-child-one span {
+    color: #facf63;
+}
+
+.container-one-child-two {
+    font-size: 72px;
+    color: #fccf64;
+    margin: 30px 0;
+}
+
+/*-------containe-two- features---*/
+
+.container-two {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.container-two-parent-one {
+    text-align: center;
+    margin: 30px 0;
+    color: #facf63;
+    font-weight: 600;
+}
+
+.container-two-parent-two {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.container-two-parent-two-child-one {
+    width: 22%;
+    margin-bottom: 50px;
+    transition: transform .30s;
+}
+
+.container-two-parent-two-child-one:hover {
+    transform: scale(1.1);
+}
+
+.container-two-parent-two-child-one img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.container-two-parent-two-child-one p {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+}
+
+/*-------container-three---Filters------------*/
+.container-three {
+    width: 100%;
+    margin: 0px 0;
+    overflow: hidden;
+}
+
+.filters {
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+.filters-img {
+    float: left;
+    margin: 2px 5px;
+}
+
+.filters-img img {
+    margin-top: 5px;
+}
+
+.sort-by {
+    width: 50%;
+    float: left;
+}
+
+.sort-by-arrange {
+    float: right;
+}
+
+.filters-filters {
+    float: left;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.sortby-sortby {
+    float: left;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.sort-by-dropdown {
+    float: left;
+    margin-left: 2px;
+}
+
+.sort-by-dropdown select {
+    padding: 15px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid gray;
+
+}
+
+/*------------container-three-parent-two---*/
+.container-three-parent-two {
+    margin-top: 100px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.filters-catagories {
+    width: 20%;
+    float: left;
+    height: 100vh;
+}
+
+.filters-catagories-one {
+    border-bottom: 1px solid gray;
+    width: 55%;
+}
+
+.filters-catagories-one select {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.filters-catagories-two {
+    border-bottom: 1px solid gray;
+    width: 55%;
+}
+
+.filters-catagories-two select {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.filters-catagories-three {
+    border-bottom: 1px solid gray;
+    width: 55%;
+}
+
+.filters-catagories-three select {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.filters-catagories-four {
+    border-bottom: 1px solid gray;
+    width: 55%;
+}
+
+.filters-catagories-four select {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.filters-images {
+    width: 80%;
+    float: right;
+}
+
+.filters-images-parent-one {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.filters-housewares {
+    height: 320px;
+    width: 80%;
+}
+
+.filters-housewares img {
+    vertical-align: bottom;
+    width: 100%;
+    height: 180px;
+}
+
+.filters-housewares p {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.filters-sortby-images {
+    height: 320px;
+    width: 80%;
+}
+
+.filters-sortby-images p {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.filters-images-parent-two {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.filters-images-parent-one-child-one {
+    width: 33.33%;
+    float: left;
+}
+
+.filters-images-parent-one-child-two {
+    width: 33.33%;
+    float: left;
+}
+
+.filters-images-parent-one-child-three {
+    width: 33.33%;
+    float: left;
+}
+
+.filters-images-parent-two-child-one {
+    width: 33.33%;
+    float: left;
+}
+
+.filters-images-parent-two-child-two {
+    width: 33.33%;
+    float: left;
+}
+
+.filters-images-parent-two-child-three {
+    width: 33.33%;
+    float: left;
+}
+
+.filters-sortby-images img {
+    width: 100%;
+    height: 180px;
+    vertical-align: bottom;
+}
+
+.filters-fashion {
+    height: 320px;
+    width: 80%;
+}
+
+/*---------footer----------*/
+.footer {
+    width: 95%;
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 15px 0;
+    background-color: #333333;
+}
+
+.footer-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-parent-one {
+    width: 25%;
+    float: left;
+    margin: 70px auto;
+    padding-top: 100px;
+}
+
+.footer-parent-one img {
+    margin-left: 20px;
+}
+
+.footer-parent-two {
+    width: 20%;
+
+    float: left;
+}
+
+.footer-parent-two p {
+    font-size: 19px;
+}
+
+.footer-link-line>hr {
+    width: 90%;
+    color: red;
+    margin: 10px 0;
+}
+
+.footer-parent-two ul li {
+
+    line-height: 3;
+    color: white;
+    list-style: none;
+}
+
+.footer-parent-three {
+    width: 25%;
+    float: left;
+}
+
+.footer-parent-three p {
+    font-size: 19px;
+}
+
+.footer-more-line>hr {
+    width: 90%;
+    color: red;
+    margin: 10px 0;
+}
+
+.footer-parent-three ul li {
+    list-style: none;
+    color: white;
+    line-height: 2.9;
+}
+
+.footer-parent-four {
+    width: 30%;
+    float: left;
+}
+
+.footer-location {
+    font-size: 19px;
+}
+
+.footer-loca-line>hr {
+    width: 90%;
+    color: red;
+    margin: 10px 0;
+}
+
+.footer-loca-logo {
+    width: 100%;
+}
+
+.footer-latest-line {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footer-newsletter {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.footer-newsletter-signup-btn {
+
+    background-color: #fcc654;
+    border: 1px solid #fcc654;
+    color: black;
+    width: 60%;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+.footer-london {
+    margin: 35px 0;
+    font-size: 14px;
+}
+
+.footer-cont-four-hr-line {
+    margin: 30px 0;
+    color: white;
+
+}
+
+.mylog-img {
+    float: left;
+    margin: 0 2px;
+}
+
+.footer-section-one {
+    width: 100%;
+    float: left;
+}
+
+.footer-section-two {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.footer-section-two-container {
+    padding: 30px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-section-two-lastline {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-section-two-policy {
+    width: 50%;
+    float: left;
+}
+
+.footer-section-two-lorem {
+    width: 50%;
+    float: right;
+    text-align: right;
+}

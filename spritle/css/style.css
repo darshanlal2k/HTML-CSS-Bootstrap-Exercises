@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.total-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*--------header--------------*/
+.header-container {
+    width: 100%;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.header-parent {
+    display: flex;
+}
+
+.header-logo {
+    width: 20%;
+    float: left;
+}
+
+.header-logo-parent {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.header-nav-parent {
+    width: 70%;
+    margin: 10px auto;
+
+
+}
+
+.header-nav-list {
+    width: 80%;
+    margin: 15px auto;
+
+
+}
+
+.header-nav-list ul li {
+    display: inline-block;
+    margin: 0 7px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.head-nav:hover {
+    color: #facf63;
+    background-color: #FFF6E0;
+}
+
+.header-login-btn {
+    width: 15%;
+    float: right;
+}
+
+.header-login-button {
+    margin-top: 15px;
+    padding: 15px 0 16px 0;
+    background-color: #fccf64;
+    width: 70%;
+    float: right;
+    text-align: center;
+}
+
+.header-login-button:hover {
+    background: #c49a6c;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    color: black !important;
+}
+
+.login-btn {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: #2E5856;
+}
+
+.header-line {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+/*------banner--------*/
+
+.banner-container {
+    width: 100%;
+}
+
+
+.banner-img {
+    background-image: url(https://trade-portal.co.uk/assets/icons/bannerL-0323927c63a8f5a42142e4bca3588d39.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-text {
+    position: relative;
+    height: 590px;
+}
+
+.banner-text-parent {
+    color: #fccf64;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+
+.banner-products {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 200;
+    margin-bottom: 20px;
+
+}
+
+.banner-Qhost {
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.banner-UK {
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/*--container-three--*/
+.container-three {
+    margin: 50px 0;
+}
+
+.container-three-parent {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cont-three-child-one {
+    font-size: 55px;
+    color: #facf63;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.cont-three-child-two {
+    width: 42%;
+    margin: 0 auto;
+    color: black;
+}
+
+/*--container-four*/
+.container-four {
+    width: 100%;
+    background-color: #facf63;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.container-four-parent {
+    width: 40%;
+    float: left;
+}
+
+.container-four-child {
+    margin: 150px 0;
+    margin-left: 60px;
+}
+
+
+.container-four-child>h1 {
+    font-size: 50px;
+    font-weight: 300;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.container-four-child p {
+    width: 60%;
+    line-height: 1.6;
+}
+
+.container-four-parent-two {
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+.container-four-child-images {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container-four-child-images-one {
+    width: 50%;
+    float: left;
+}
+
+.container-four-child-images-one img {
+    margin-top: 40px;
+    height: 400px;
+}
+
+.container-four-child-images-three {
+    width: 50%;
+    float: left;
+}
+
+.container-four-child-images-three img {
+    margin-top: 40px;
+    height: 400px;
+}
+
+.container-four-child-images-index {
+    position: absolute;
+    top: 10px;
+    right: 300px;
+}
+
+.container-four-child-images-index img {
+    height: 450px;
+
+}
+
+/*--container-five*/
+.container-five {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.container-five-parent-one {
+    width: 60%;
+    float: left;
+}
+
+.container-five-parent {
+    width: 40%;
+    float: right;
+}
+
+.container-five-parent>h1 {
+    font-size: 60px;
+    font-weight: 300;
+    width: 75%;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #facf63;
+    margin-top: 30px;
+}
+
+.container-five-parent p {
+    width: 75%;
+    margin: 40px 0;
+}
+
+.container-five-parent button {
+    margin-top: 20px;
+    background-color: #facf63;
+    padding: 15px;
+    border: 1px solid #facf63;
+    color: black;
+    font-size: 16px;
+    width: 30%;
+
+}
+
+.container-five-parent span {
+    color: white;
+}
+
+/*--container-six*/
+
+.container-six {
+    width: 100%;
+    padding: 50px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-six-parent {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-six-child-one {
+    width: 80%;
+}
+
+.container-six-child-one h1 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #facf63;
+    line-height: 1;
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.container-six-child-one p {
+    width: 80%;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container-six-parent-one {
+    width: 50%;
+    float: left;
+}
+
+.container-six-child-images {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container-six-child-images-one {
+    width: 50%;
+    float: left;
+}
+.container-six-child-images-one img {
+    margin-top: 40px;
+    height: 400px;
+}
+
+.container-six-child-images-three {
+    width: 50%;
+    float: left;
+}
+
+.container-six-child-images-three img {
+    margin-top: 40px;
+    height: 400px;
+}
+.container-six-child-images-z-index {
+    position: absolute;
+    top: 65px;
+    right: 300px;
+}
+
+.container-six-child-images-z-index img {
+    height: 450px;
+}
+/*---footer---*/
+.footer {
+    width: 95%;
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 15px 0;
+    background-color: #333333;
+}
+
+.footer-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-parent-one {
+    width: 25%;
+    float: left;
+    margin: 70px auto;
+    padding-top: 100px;
+}
+
+.footer-parent-one img {
+    margin-left: 20px;
+}
+
+.footer-parent-two {
+    width: 20%;
+    float: left;
+}
+
+.footer-parent-two p {
+    font-size: 19px;
+}
+
+.footer-link-line>hr {
+    width: 90%;
+    color: red;
+    margin: 10px 0;
+}
+
+.footer-parent-two ul li {
+
+    line-height: 3;
+    color: white;
+    list-style: none;
+}
+
+.footer-parent-three {
+    width: 25%;
+    float: left;
+}
+
+.footer-parent-three p {
+    font-size: 19px;
+}
+
+.footer-more-line>hr {
+    width: 90%;
+    color: red;
+    margin: 10px 0;
+}
+
+.footer-parent-three ul li {
+    list-style: none;
+    color: white;
+    line-height: 2.9;
+}
+
+.footer-parent-four {
+    width: 30%;
+    float: left;
+}
+
+.footer-location {
+    font-size: 19px;
+}
+
+.footer-loca-line>hr {
+    width: 90%;
+    color: red;
+    margin: 10px 0;
+}
+
+.footer-loca-logo {
+    width: 100%;
+}
+
+.footer-latest-line {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footer-newsletter {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.footer-newsletter-signup-btn {
+    background-color: #fcc654;
+    border: 1px solid #fcc654;
+    color: black;
+    width: 60%;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+.footer-london {
+    margin: 35px 0;
+    font-size: 14px;
+}
+
+.footer-cont-four-hr-line {
+    margin: 30px 0;
+    color: white;
+
+}
+
+.mylog-img {
+    float: left;
+    margin: 0 2px;
+}
+
+.footer-section-one {
+    width: 100%;
+    float: left;
+}
+
+.footer-section-two {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.footer-section-two-container {
+    padding: 30px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-section-two-lastline {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-section-two-policy {
+    width: 50%;
+    float: left;
+}
+
+.footer-section-two-lorem {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
